@@ -4,7 +4,6 @@ import fs from 'fs';
 
 import Transaction from '../models/Transaction';
 import Category from '../models/Category';
-import TransactionsRepository from '../repositories/TransactionsRepository';
 
 interface TransactionCSV {
   title: string;
